@@ -1,18 +1,19 @@
 body {
     padding-top: 50px;
 }
-
+h1{
+    text-align: center;
+}
 .jumbotron {
     color: black;
     background: white;
     text-align: center;
-    background: url(http://scrabbleonlinefree.info/wp-content/uploads/2018/06/professional-background-for-powerpoint-presentation-professional-backgrounds-for-powerpoint-presentations-1024x640.jpg) no-repeat center center fixed;
+    background: url(http://demographicwinter.org/wp-content/uploads/2018/03/this-light-blue-lines-slide-design-can-be-suitable-for-with-blue-professional-presentation-backgrounds.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
 .navbar-inverse {
     background: black;
     color: white;
