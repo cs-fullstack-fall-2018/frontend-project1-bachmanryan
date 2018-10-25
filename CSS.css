@@ -25,3 +25,19 @@ body {
 .navbar-inverse .navbar-nav > li > a {
     color: white;
 }
+
+#anotherJumbo{
+    background: url(http://armart.info/wp-content/uploads/professional-business-background-recruitment-ppt-simple-also-backgrounds-templates-for-powerpoint-presentations-651x488.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#oneMoreJumbo{
+    background: url(https://images.wallpaperscraft.com/image/avantone_bv_12_microphone_professional_108916_300x168.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

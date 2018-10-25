@@ -19,12 +19,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture"></span> IMGS</a>
+            <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture"></span> RJB</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-nav-demo">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">About Me</a></li>
-                <li><a href="index2.html">Contact Me</a></li>
+                <li><a href="aboutMe.html">About Me</a></li>
+                <li><a href="contactMe.html" style="padding-right: 50px">Contact Me</a></li>
             </ul>
         </div>
     </div>
@@ -39,26 +39,39 @@
     </div>
 
 </div>
-<div class="jumbotron" id="newJumbo">
-    <div class="w3-container" style="height: 600px">
-        <h2>My Experience</h2>
-        <p>I am new to the whole coding world but I went through a 6 month program called</p>
-        <img src="https://static1.squarespace.com/static/5542b461e4b09a473cae6285/t/55cb41a1e4b002535ed84c4b/1523467657768/?format=1500w"
-             height="100px" width="800px">
-        <p>Code Crew has changed my life for the better and has helped me learn the skills </p>
-        <p>I need to further my career as a Future Developer and has opened my world up to </p>
-        <p>all types of new things! </p>
-
-    </div>
-</div>
+<table class="jumbotron" id="newJumbo">
+    <tr>
+        <th><img src="https://static1.squarespace.com/static/5542b461e4b09a473cae6285/t/55cb41a1e4b002535ed84c4b/1523467657768/?format=1500w"
+                 height="100px" width="800px"></th>
+        <th><img height="100px" width="800px" src="data:image/png;base64,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">
+        </th>
+    </tr>
+    <tr>
+        <th style="word-wrap: break-word">
+        <h2>The Chance of a Lifetime</h2>
+        I am new to the whole coding world and I was given the most amazing opportunity to attend a 6 month program called
+        Code Crew, and this program has changed my life for the better and has helped me learn the skills
+        I need to further my career as a Software Developer and has opened my world up to
+        all types of new things.  This program has given me the chance to better myself
+        both in my Career and as an individual.
+        </th>
+        <th>
+            <h2>What I Tried Before</h2>
+            Before I came to Code Crew I went through an online program called Mimo and I learned from this website
+            how to do some very basic coding relating to game development buti felt like i wasn't really getting anywhere
+            learning wise  and i wasnt actually learning things
+        </th>
+    </tr>
+</table>
+    <tr>
+    </tr>
 <div class="jumbotron" id="anotherJumbo">
     <div class="w3-container" style="height: 600px">
-        <img src="http://armart.info/wp-content/uploads/professional-business-background-recruitment-ppt-simple-also-backgrounds-templates-for-powerpoint-presentations-651x488.jpg">
     </div>
 </div>
 <div class="jumbotron" id="oneMoreJumbo">
     <div class="w3-container" style="height: 600px">
-        <img src="https://images.wallpaperscraft.com/image/avantone_bv_12_microphone_professional_108916_300x168.jpg">
+        <img src="">
     </div>
 </div>
 </body>
